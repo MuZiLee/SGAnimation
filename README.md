@@ -1,9 +1,4 @@
 
-## 前沿
-
-* 对动画的一些实际应用（后期不断更新维护中）
-
-
 ## 效果图
 
 ![](https://github.com/kingsic/SGAnimation/raw/master/Gif/sorgle.gif) 
@@ -15,8 +10,10 @@
 
 * `活动弹窗`<br>
 
+* `饼图`<br>
 
-## 代码介绍（详细使用请参考 Demo）
+
+## 代码介绍（详细使用，请参考 Demo）
 
 * 将项目中 SGAnimation 文件夹导入工程
 
@@ -41,7 +38,24 @@
         NSLog(@"图片被点击了");
     };
     [APView SG_show];
+    
+    
+    /// 饼形视图
+    NSArray *valueArr = @[@3, @2, @1, @4];
+    NSArray *colorArr = @[[UIColor purpleColor], [UIColor blueColor], [UIColor orangeColor], [UIColor redColor]];
+    CGFloat pieW = 200;
+    CGFloat pieH = pieW;
+    CGFloat pieX = 0.5 * ([UIScreen mainScreen].bounds.size.width - pieW);
+    CGFloat pieY = 0.5 * ([UIScreen mainScreen].bounds.size.height - pieW);
+    SGPieChart *pie = [[SGPieChart alloc] initWithFrame:CGRectMake(pieX, pieY, pieW, pieH)];
+    [self.view addSubview:pie];
+    [pie setProgressValues:valueArr colors:colorArr animated:YES];
 ```
+
+
+## 版本介绍
+
+* 2017-7-14 --> 新增饼形视图
 
 
 ## Concluding remarks
