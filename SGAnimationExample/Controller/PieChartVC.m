@@ -7,7 +7,7 @@
 //
 
 #import "PieChartVC.h"
-#import "SGPieChart.h"
+#import "SGAnimation.h"
 
 @interface PieChartVC ()
 
@@ -20,6 +20,10 @@
     // Do any additional setup after loading the view from its nib.
     self.view.backgroundColor = [UIColor whiteColor];
     
+    [self setupPieChart];
+}
+
+- (void)setupPieChart {
     NSArray *valueArr = @[@3, @2, @1, @4];
     NSArray *colorArr = @[[UIColor purpleColor], [UIColor blueColor], [UIColor orangeColor], [UIColor redColor]];
     
@@ -28,7 +32,7 @@
     CGFloat pieX = 0.5 * ([UIScreen mainScreen].bounds.size.width - pieW);
     CGFloat pieY = 0.5 * ([UIScreen mainScreen].bounds.size.height - pieW);
     SGPieChart *pie = [[SGPieChart alloc] initWithFrame:CGRectMake(pieX, pieY, pieW, pieH)];
-//    pie.pieWidth = 100;
+    //    pie.pieWidth = 100;
     [self.view addSubview:pie];
     [pie setProgressValues:valueArr colors:colorArr animated:YES];
     pie.pieAnimationTime = 3;
