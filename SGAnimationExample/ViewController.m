@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "HorseRaceLampVC.h"
 #import "ActivePopupsVC.h"
+#import "PieChartVC.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -21,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.TitleDataList = @[@"跑马灯", @"活动弹窗"];
+    self.TitleDataList = @[@"跑马灯", @"活动弹窗", @"饼形"];
     
     [self foundTableView];
 }
@@ -48,9 +49,12 @@
     if (indexPath.row == 0) {
         HorseRaceLampVC *HRLVC = [[HorseRaceLampVC alloc] init];
         [self.navigationController pushViewController:HRLVC animated:YES];
-    } else {
+    } else if (indexPath.row == 1) {
         ActivePopupsVC *APVC = [[ActivePopupsVC alloc] init];
         [self.navigationController pushViewController:APVC animated:YES];
+    } else {
+        PieChartVC *pieVC = [[PieChartVC alloc] init];
+        [self.navigationController pushViewController:pieVC animated:YES];
     }
 }
 

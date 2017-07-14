@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180E98141F18BEEE005466E5 /* CALayer+SGAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E98131F18BEEE005466E5 /* CALayer+SGAnimation.m */; };
+		180E98171F18BEFD005466E5 /* SGPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E98161F18BEFD005466E5 /* SGPieChart.m */; };
+		180E981A1F18BF1B005466E5 /* PieChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E98191F18BF1B005466E5 /* PieChartVC.m */; };
 		188D37A91EF767BF00EF2B1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D37A81EF767BF00EF2B1D /* main.m */; };
 		188D37AC1EF767C000EF2B1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D37AB1EF767C000EF2B1D /* AppDelegate.m */; };
 		188D37AF1EF767C000EF2B1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D37AE1EF767C000EF2B1D /* ViewController.m */; };
@@ -17,7 +20,6 @@
 		188D37CD1EF767C100EF2B1D /* SGAnimationExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D37CC1EF767C100EF2B1D /* SGAnimationExampleUITests.m */; };
 		188D37EB1EF76A4A00EF2B1D /* HorseRaceLampVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D37EA1EF76A4A00EF2B1D /* HorseRaceLampVC.m */; };
 		188D37EE1EF76A6100EF2B1D /* ActivePopupsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D37ED1EF76A6100EF2B1D /* ActivePopupsVC.m */; };
-		188D383B1EF77D5300EF2B1D /* CALayer+SGAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D38361EF77D5300EF2B1D /* CALayer+SGAnimation.m */; };
 		188D383C1EF77D5300EF2B1D /* SGActivePopupsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D38381EF77D5300EF2B1D /* SGActivePopupsView.m */; };
 		188D383D1EF77D5300EF2B1D /* SGHorseRaceLampView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D383A1EF77D5300EF2B1D /* SGHorseRaceLampView.m */; };
 /* End PBXBuildFile section */
@@ -40,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180E98121F18BEEE005466E5 /* CALayer+SGAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SGAnimation.h"; sourceTree = "<group>"; };
+		180E98131F18BEEE005466E5 /* CALayer+SGAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SGAnimation.m"; sourceTree = "<group>"; };
+		180E98151F18BEFD005466E5 /* SGPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPieChart.h; sourceTree = "<group>"; };
+		180E98161F18BEFD005466E5 /* SGPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPieChart.m; sourceTree = "<group>"; };
+		180E98181F18BF1B005466E5 /* PieChartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartVC.h; sourceTree = "<group>"; };
+		180E98191F18BF1B005466E5 /* PieChartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartVC.m; sourceTree = "<group>"; };
 		188D37A41EF767BF00EF2B1D /* SGAnimationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGAnimationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188D37A81EF767BF00EF2B1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		188D37AA1EF767C000EF2B1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,8 +68,6 @@
 		188D37EA1EF76A4A00EF2B1D /* HorseRaceLampVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorseRaceLampVC.m; sourceTree = "<group>"; };
 		188D37EC1EF76A6100EF2B1D /* ActivePopupsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivePopupsVC.h; sourceTree = "<group>"; };
 		188D37ED1EF76A6100EF2B1D /* ActivePopupsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivePopupsVC.m; sourceTree = "<group>"; };
-		188D38351EF77D5300EF2B1D /* CALayer+SGAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SGAnimation.h"; sourceTree = "<group>"; };
-		188D38361EF77D5300EF2B1D /* CALayer+SGAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SGAnimation.m"; sourceTree = "<group>"; };
 		188D38371EF77D5300EF2B1D /* SGActivePopupsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGActivePopupsView.h; sourceTree = "<group>"; };
 		188D38381EF77D5300EF2B1D /* SGActivePopupsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGActivePopupsView.m; sourceTree = "<group>"; };
 		188D38391EF77D5300EF2B1D /* SGHorseRaceLampView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGHorseRaceLampView.h; sourceTree = "<group>"; };
@@ -94,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180E98111F18BED8005466E5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				180E98121F18BEEE005466E5 /* CALayer+SGAnimation.h */,
+				180E98131F18BEEE005466E5 /* CALayer+SGAnimation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		188D379B1EF767BF00EF2B1D = {
 			isa = PBXGroup;
 			children = (
@@ -161,10 +176,12 @@
 		188D37E21EF769CD00EF2B1D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				188D37E91EF76A4A00EF2B1D /* HorseRaceLampVC.h */,
-				188D37EA1EF76A4A00EF2B1D /* HorseRaceLampVC.m */,
 				188D37EC1EF76A6100EF2B1D /* ActivePopupsVC.h */,
 				188D37ED1EF76A6100EF2B1D /* ActivePopupsVC.m */,
+				188D37E91EF76A4A00EF2B1D /* HorseRaceLampVC.h */,
+				188D37EA1EF76A4A00EF2B1D /* HorseRaceLampVC.m */,
+				180E98181F18BF1B005466E5 /* PieChartVC.h */,
+				180E98191F18BF1B005466E5 /* PieChartVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -177,8 +194,9 @@
 				188D38381EF77D5300EF2B1D /* SGActivePopupsView.m */,
 				188D38391EF77D5300EF2B1D /* SGHorseRaceLampView.h */,
 				188D383A1EF77D5300EF2B1D /* SGHorseRaceLampView.m */,
-				188D38351EF77D5300EF2B1D /* CALayer+SGAnimation.h */,
-				188D38361EF77D5300EF2B1D /* CALayer+SGAnimation.m */,
+				180E98151F18BEFD005466E5 /* SGPieChart.h */,
+				180E98161F18BEFD005466E5 /* SGPieChart.m */,
+				180E98111F18BED8005466E5 /* Category */,
 			);
 			path = SGAnimation;
 			sourceTree = "<group>";
@@ -316,13 +334,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				188D383B1EF77D5300EF2B1D /* CALayer+SGAnimation.m in Sources */,
+				180E98171F18BEFD005466E5 /* SGPieChart.m in Sources */,
 				188D37AF1EF767C000EF2B1D /* ViewController.m in Sources */,
+				180E981A1F18BF1B005466E5 /* PieChartVC.m in Sources */,
 				188D37AC1EF767C000EF2B1D /* AppDelegate.m in Sources */,
 				188D383D1EF77D5300EF2B1D /* SGHorseRaceLampView.m in Sources */,
 				188D383C1EF77D5300EF2B1D /* SGActivePopupsView.m in Sources */,
 				188D37A91EF767BF00EF2B1D /* main.m in Sources */,
 				188D37EB1EF76A4A00EF2B1D /* HorseRaceLampVC.m in Sources */,
+				180E98141F18BEEE005466E5 /* CALayer+SGAnimation.m in Sources */,
 				188D37EE1EF76A6100EF2B1D /* ActivePopupsVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
